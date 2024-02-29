@@ -9,7 +9,9 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.web.accept.ContentNegotiationStrategy;
 import org.springframework.web.accept.HeaderContentNegotiationStrategy;
 
-
+//that provides a HttpSecurity configuration bean.
+// This class is where you configure your security settings,
+// such as URL permissions, form login, logout procedures,
 @EnableWebSecurity
 @Configuration // Set this up setting up the application's environment
 public class SecurityConfiguration {
